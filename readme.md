@@ -56,6 +56,8 @@ python run_train_sum.py --diff_steps 500 --model_arch transformer_sum --lr 1e-5 
 python batch_decode_sum.py [checkpoint_path] -1.0 ema
 ```
 ## References
+
+```
 @article{Zhang2023DiffuSumGE,
   title={DiffuSum: Generation Enhanced Extractive Summarization with Diffusion},
   author={Haopeng Zhang and Xiao Liu and Jiawei Zhang},
@@ -63,3 +65,4 @@ python batch_decode_sum.py [checkpoint_path] -1.0 ema
   year={2023},
   volume={abs/2305.01735}
 }
+```
