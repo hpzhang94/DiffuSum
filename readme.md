@@ -31,7 +31,10 @@ conda create --name [envname] python=3.8
 pip install -r requirements.txt
 ```
 
+## Data preprocessing
 
+We reuse the preprocessed data from MatchSum repo: https://github.com/maszhongming/MatchSum .
+Please download the data and put it in the corresponeding directories.
 
 ## Train & Test
 
